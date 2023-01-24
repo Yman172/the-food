@@ -1,0 +1,252 @@
+/* .logo{
+    color: red;    
+    text-align: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
+    box-shadow: 1px 0px 3px 3px ;
+    
+    
+} */
+.imag{
+    box-sizing: border-box;
+}
+#parent_div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+::placeholder {
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+    text-transform: capitalize;
+}
+/* .button{
+    /* color: red; */
+
+/* } */ 
+.list{
+    list-style: none;
+
+}
+.form{
+    display: flex;
+}
+.form_container{
+    visibility: hidden;
+}
+
+/* second image container */
+.second_container{
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+.background_container{
+    margin-top: 0px;
+    width: 80%;
+    height: 350px;
+    background-image: url(images/second.jpeg);
+    background-size: 100% 100%;
+    border: 0.1px;
+    box-shadow: 5px 5px 8px 8px;
+    animation:slider 50s infinite linear;
+
+}
+@keyframes slider{
+    0%{
+    background-image: url(images/second.jpeg);
+        
+    }
+
+    25%{
+    background-image: url(images/wallpaper1.jpg);
+
+    }
+    45%{
+    background-image: url(images/istockphoto-1316145932-170667a.jpg);
+
+    }
+    75%{
+        background-image: url(images/wallpaper2.jpg);
+    }
+}
+.para_second_image{
+    width: 33%;
+    font-size: 26px;
+    font-weight: bolder;
+    color: red;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    box-sizing: border-box;
+}
+
+
+                      /* cards */
+.card_container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}                     
+.child_card{
+    width: 200px;
+    height: 400px;
+}
+
+.image{
+    height: 250px;
+    width: 70%;
+    box-sizing: border-box;
+}
+.imagecard{
+    width: 100%;
+    height: 200px;
+}
+.grandchild_div{
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+}
+.card_title{
+    font-size: 18px;
+}
+.card_para{
+    font-size: 12px;
+}
+.anchor{
+    color: blue;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+/* @media (max-width:1000px) {
+
+    body{
+        background-color: antiquewhite;
+    }
+} */
+
+@media (max-width: 768px) {
+    .para_second_image{
+        color: red;
+        width: 33%;
+        font-size: 16px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 400px;
+        
+    }
+    /* .form{
+        display: inline-block;
+    } */
+    .background_container{
+        width: 85%;
+        height: 350px;
+    }
+    /* .imag{
+        margin-left: 30px;
+        
+    } */
+    .form_container{
+        visibility: visible;
+        padding: 20px;
+    
+
+    }        
+}
+
+
+
+
+/* @media (max-width: 600px) {
+    .child_{
+        width: 100%;
+    }
+    .card_link{
+        width: 80%;
+    }
+    .image{
+        width: 100%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       /* contact us page */
+/* .container_form{
+    width: 30%;
+    background-color: aqua;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+ */
+
+
+.contact_container{
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    border: 5px solid;
+    padding: 30px;
+
+}
+.email_link{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+@media (max-width: 680px) {
+    .contact_container{
+        width: 50%;
+        height: 180px;
+    }
+}
+@media (max-width: 450px) {
+    .contact_container{
+        width: 80%;
+        height: 200px;
+    }
+}
+
+
+
+                                /* tranding */
+.child_card{
+    margin: 10px;
+}                                
+
+
+
+
+
+
+
+
+
+
+
