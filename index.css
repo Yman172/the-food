@@ -8,6 +8,10 @@
     
     
 } */
+.navbar{
+    /* background-color: cornsilk !important; */
+    width: 100% !important;
+}
 .imag{
     box-sizing: border-box;
 }
@@ -24,9 +28,9 @@
     text-transform: capitalize;
 }
 /* .button{
-    /* color: red; */
+    color: red;
 
-/* } */ 
+}  */
 .list{
     list-style: none;
 
@@ -135,7 +139,7 @@
     }
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .para_second_image{
         color: red;
         width: 33%;
@@ -161,9 +165,73 @@
         padding: 20px;
     
 
-    }        
+    } 
+    #parent_div{
+        width: 100% !important;
+        /* background-color: aqua; */
+    }
+    .button{
+        position: relative !important;
+        left: 80px; 
+    }       
+    .imag{
+        position: relative !important;
+        right: 0px;
+    }
 }
+                        /* width 550px */
+@media (max-width: 550px) {
+    .button{
+        position: relative !important;
+        left: 50px; 
+    }
+    .imag{
+        position: relative !important;
+        right: 40px;
+    }
+}
+@media (max-width: 420px) {
 
+    .child_card{
+        width: 40%;
+    }
+}
+                                       /* width 405                                      */
+@media (max-width: 405px) {
+    .button{
+        position: relative !important;
+        left: 40px; 
+    }
+    .imag{
+        position: relative !important;
+        right: 30px;
+    }
+}
+                                       /* width 355 */
+@media (max-width: 355px) {
+    .button{
+        position: relative !important;
+        left: 16px; 
+    }
+    .imag{
+        position: relative !important;
+        right: 20px;
+    }
+}
+                                        /* width 260 */
+@media (max-width: 281px) {
+    .button{
+        position: relative !important;
+        left: 10px; 
+    }
+    .imag{
+        position: relative !important;
+        right: 10px;
+    }
+    .child_card{
+        width: 80%;
+    }
+}
 
 
 

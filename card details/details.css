@@ -17,13 +17,19 @@
     height: 400px;
     width: 100%;
 }
-.button{
+.buttoncart{
+    
     margin: 10px;
     width: 100%;
 }
-.button_div{
+.button_divcart{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
-    padding: 20px;
+    /* padding: 20px; */
+    background-color: aqua;
 }
 @media (max-width: 1020px) {
     .image_details{
@@ -32,11 +38,11 @@
     
 }
 }
-@media (max-width: 750px) {
+@media (max-width: 767px) {
     .container_details{
         /* margin: 20px; */
         padding: 20px;
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
         /* flex-wrap: nowrap; */
@@ -44,7 +50,66 @@
         
     }
     .child_details{
-        width: 100%;
+        width: 80%;
         
     }
+    .buttoncart{
+        width: 100%;
+        /* position: relative !important;
+        left: 80px;  */
+    
+    }
+    .button_divcart{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        /* background-color: aqua; */
+    }
+
+    /* nav bar button and logo */
+    .logo_button_c{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        /* background-color: aqua !important; */
+    }
+    .logo_button_ch{
+        width: 200px;
+        /* background-color: bisque; */
+
+    }
+    .button{
+        height: 50px;
+        width: 60px;
+    }
+    .logo_ch{
+        padding-top: 2px;
+    }
+    .button_ch{
+        padding-left: 30px;
+    }
+    .imag{
+        margin: 0px 10px;
+    }
 }
+                /* media 550 */
+@media (max-width: 550px) {
+    .logo_button_c{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        /* background-color: aqua !important; */
+    }
+    /* .logo_ch{
+        padding-right: 0px;
+    } */
+    .imag{
+        margin: 0px 50px;
+    }
+}                
